@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arrow function</title>
+  </head>
+  <body>
+    <script>
+      //ESS
+      var sum = function (a, b) {
+        return a + b;
+      };
+      console.log("Sum of a, b is: " + sum(3, 4));
+
+      //ES6
+      var sum = (a, b) => {
+        // xử lý tính toán
+        return a + b;
+      };
+      console.log("Sum of a, b is: " + sum(1, 2));
+
+      //ES6 - arrow function
+      var sum = (a, b) => a + b;
+      console.log("Sum of a, b is: " + sum(4, 5));
+    </script> 
+  </body>
+</html>
